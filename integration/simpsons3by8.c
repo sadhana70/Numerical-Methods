@@ -28,6 +28,6 @@ int main(){
                 ans+=2*f(a+i*h);
         }
     }
-	printf("The value of the integration is %8.5f: ",ans);
+	printf("The value of the integration is %8.5f: ",(3*h)/8*ans);
     return 0;
 }
